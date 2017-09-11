@@ -9,8 +9,7 @@ library(dplyr)
 library(syuzhet)
 library(ggplot2)
 
-setup_twitter_oauth('Azah0mdcPDrFv9oiPHIGoivYT','0SJPCLyIWM8aiVJ0Kemzw6SwZcDb3QvWWRwGszP0DZH8fEsSL0',
-                   '3326095525-YTkP0LLXEZb9cT8PqzxdOyE7CBRQCdETF2tZu3o', 'rSwzXrIu6yJZw7F8ZJwyMFe8nmZIQKXvQt8ftJs4PZxzR')
+
 
 IndiaFirstNoCompromise<-  twListToDF(searchTwitteR('#IndiaFirstNoCompromise',n = 10000))
 
